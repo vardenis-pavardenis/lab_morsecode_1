@@ -2,7 +2,7 @@ import beep from 'beep'
 import sleep from 'sleep'
 
 /**
- * vykdoma funkcija generuoja tasko signala
+ * Vykdoma funkcija generuoja taško signalą.
  * @returns {undefined}
  */
 const f_generuoti_signala_taskas = function ()
@@ -15,7 +15,7 @@ const f_generuoti_signala_taskas = function ()
 }
 
 /**
- * vykdoma funkcija generuoja brūkšnio signala
+ * Vykdoma funkcija generuoja brūkšnio signalą.
  * @returns {undefined}
  */
 const f_generuoti_signala_bruksnys = function ()
@@ -50,6 +50,20 @@ f_generuoti_signala_bruksnys()
 f_generuoti_signala_bruksnys()
 
 f_generuoti_signala_bruksnys()
+
+// 
+// Papildomas tylos laikotarpis po paskutinio sekos elemento 2 laiko vienetai.
+sleep(400)
+
+//
+// S (...)
+//
+
+f_generuoti_signala_taskas()
+
+f_generuoti_signala_taskas()
+
+f_generuoti_signala_taskas()
 
 // 
 // Papildomas tylos laikotarpis po paskutinio sekos elemento 2 laiko vienetai.
