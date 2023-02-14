@@ -27,19 +27,28 @@ const f_generuoti_signala_bruksnys = function ()
     sleep(200)
 }
 
-//
-// S (...)
-//
+/**
+ * Vykdoma funkcija generuoja garsinių signalų seką, kuri morzės abecelėje atitinka simbolį s 
+ * @returns {undefined}
+ */
+const f_generuoti_simboli_s = function ()
+{
+    //
+    // S (...)
+    //
 
-f_generuoti_signala_taskas()
+    f_generuoti_signala_taskas()
 
-f_generuoti_signala_taskas()
+    f_generuoti_signala_taskas()
 
-f_generuoti_signala_taskas()
+    f_generuoti_signala_taskas()
 
-// 
-// Papildomas tylos laikotarpis po paskutinio sekos elemento 2 laiko vienetai.
-sleep(400)
+    // 
+    // Papildomas tylos laikotarpis po paskutinio sekos elemento 2 laiko vienetai.
+    sleep(400)
+}
+
+f_generuoti_simboli_s()
 
 //
 // O (---)
@@ -55,16 +64,4 @@ f_generuoti_signala_bruksnys()
 // Papildomas tylos laikotarpis po paskutinio sekos elemento 2 laiko vienetai.
 sleep(400)
 
-//
-// S (...)
-//
-
-f_generuoti_signala_taskas()
-
-f_generuoti_signala_taskas()
-
-f_generuoti_signala_taskas()
-
-// 
-// Papildomas tylos laikotarpis po paskutinio sekos elemento 2 laiko vienetai.
-sleep(400)
+f_generuoti_simboli_s()
